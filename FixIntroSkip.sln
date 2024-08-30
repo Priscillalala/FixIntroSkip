@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixIntroSkip", "FixIntroSkip\FixIntroSkip.csproj", "{A5427619-C6CF-449F-A27B-CA326887845E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5427619-C6CF-449F-A27B-CA326887845E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5427619-C6CF-449F-A27B-CA326887845E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5427619-C6CF-449F-A27B-CA326887845E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5427619-C6CF-449F-A27B-CA326887845E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {794F5360-011C-4F93-A496-9FE4FE5B8ACE}
+	EndGlobalSection
+EndGlobal
