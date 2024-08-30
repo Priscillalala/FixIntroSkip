@@ -1,8 +1,8 @@
 # Fix Intro Skip
 
-The Seekers of the Storm update made the splash screen and intro cutscene start during loading instead of after. It seems like that broke the `intro_skip` and `splash_skip` config options so this mod fixes them.
+The Seekers of the Storm update made the splash screen and intro cutscene play during loading instead of after. It seems like that broke the `intro_skip` and `splash_skip` config options so this mod fixes them.
 
-This mod won't skip the intro by itself, you need to enables `intro_skip` and `splash_skip` in the game's config file or through commands.
+This mod won't skip the intro by itself, you need to enable `intro_skip` and `splash_skip` in the game's config file or through commands.
 
 ## Contact
 You can find me in the [RoR2 Modding Server](https://discord.gg/5MbXZvd) @Groove_Salad
