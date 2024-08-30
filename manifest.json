@@ -1,0 +1,10 @@
+{
+    "name": "FixIntroSkip",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/Priscillalala/FixIntroSkip",
+    "description": "Fixes the intro_skip and splash_skip options.",
+    "dependencies": [
+        "bbepis-BepInExPack-5.4.2117",
+        "RiskofThunder-HookGenPatcher-1.2.4"
+    ]
+}

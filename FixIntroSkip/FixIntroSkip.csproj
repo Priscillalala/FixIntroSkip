@@ -15,8 +15,15 @@
 		</PackageReference>
 	</ItemGroup>
 
+	<ItemGroup>
+		<Content Include="..\manifest.json" Link="manifest.json" />
+		<Content Include="..\CHANGELOG.md" Link="CHANGELOG.md" />
+		<Content Include="..\README.md" Link="README.md" />
+	</ItemGroup>
+
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
 		<Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ProfilePluginsPath)\$(ProjectName)" />
+		<Copy SourceFiles="@(Content)" DestinationFolder="$(ProfilePluginsPath)\$(ProjectName)" />
 	</Target>
 
 </Project>
