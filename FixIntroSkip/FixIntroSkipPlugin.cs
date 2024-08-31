@@ -56,6 +56,7 @@ namespace FixIntroSkip
                     GameObject splash = new GameObject("Splash");
                     splash.SetActive(false);
                     SplashScreenController splashScreenController = splash.AddComponent<SplashScreenController>();
+                    splash.AddComponent<TriggerIntroMusicStart>();
                     splash.SetActive(true);
                     splashScreenController.Finish();
                     yield break;
